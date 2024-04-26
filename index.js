@@ -34,7 +34,14 @@ let allstars = [
       "name":"syn",
       "active":true,
       "location":"JP"
-  }
+  },
+  {
+    "id":4,
+    "name":"fiv",
+    "active":true,
+    "location":"JP"
+}
+
 ]
 
 let allusers = [
