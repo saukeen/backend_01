@@ -1,11 +1,14 @@
 //import express package
 let express = require('express')
+let cors = require("cors")
 
 //initialize express app
 let app = express()
 
 //configure express app to use JSON encoding/format
 app.use(express.json())
+
+app.use(cors())
 
 let allstars = [
     {
